@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03495416298A85ED008FED22 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03495415298A85ED008FED22 /* DetailView.swift */; };
 		03503E0F29790D3C00241750 /* MyfirstpracticeappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03503E0E29790D3C00241750 /* MyfirstpracticeappApp.swift */; };
 		03503E1129790D3C00241750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03503E1029790D3C00241750 /* ContentView.swift */; };
 		03503E1329790D3E00241750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03503E1229790D3E00241750 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03495415298A85ED008FED22 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		03503E0B29790D3C00241750 /* Myfirstpracticeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myfirstpracticeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03503E0E29790D3C00241750 /* MyfirstpracticeappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyfirstpracticeappApp.swift; sourceTree = "<group>"; };
 		03503E1029790D3C00241750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				03503E1429790D3E00241750 /* Preview Content */,
 				03670AFE297FFD0300BEE8F0 /* CardView.swift */,
 				03670B022980061100BEE8F0 /* ScrumsView.swift */,
+				03495415298A85ED008FED22 /* DetailView.swift */,
 			);
 			path = Myfirstpracticeapp;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03503E3C297917C900241750 /* DailyScrum.swift in Sources */,
+				03495416298A85ED008FED22 /* DetailView.swift in Sources */,
 				03670B01298001F400BEE8F0 /* TrailingIconLabelStyle.swift in Sources */,
 				03503E3A297916D600241750 /* Theme.swift in Sources */,
 				03670B032980061100BEE8F0 /* ScrumsView.swift in Sources */,
@@ -445,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Myfirstpracticeapp/Preview Content\"";
-				DEVELOPMENT_TEAM = ZMYNNAKUNP;
+				DEVELOPMENT_TEAM = 7K5YC2T4XS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +465,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nettonics.Myfirstpracticeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Myfirstpracticeapp/Preview Content\"";
-				DEVELOPMENT_TEAM = ZMYNNAKUNP;
+				DEVELOPMENT_TEAM = 7K5YC2T4XS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -482,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +498,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nettonics.Myfirstpracticeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
